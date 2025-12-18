@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+
+    <p>Realiza un formulario que tenga dos campos de texto. Deberá validar antes de enviarse si uno de los campos es un anagrama del otro y enviarse solo si lo es. Se ignorarán mayúsculas, minúsculas y espacios.</p>
+
+    <form id="anagramaForm" method="post" action="https://formsubmit.co/cvilpiz939@g.educaand.es">
+        <label for="campo1">Campo 1:</label>
+        <input type="text" id="campo1" required>
+        <br><br>
+        <label for="campo2">Campo 2:</label>
+        <input type="text" id="campo2" required>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+        
+    <p id="mensaje" style="color:red;"></p>
+
+    <script src="./ej12.js"></script>
+</body>
+</html>

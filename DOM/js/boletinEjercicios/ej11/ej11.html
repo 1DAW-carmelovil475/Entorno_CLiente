@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+
+    <p>Realiza un formulario que pida una dirección de email y la valide antes de enviarla:
+    a-> Debe validar si el email sigue el formato texto@servidor.loquesea
+    b-> Además de validar el formato anterior, debe comprobar que servidor.loquesea este como servidor admitido en un array de servidores llamado “listaServidores”. Dicho array debe ser definido a mano en el código.</p>
+
+    <form id="formEmail">
+    <label for="email">Introduce tu email:</label>
+    <input type="text" id="email" name="email" required>
+    <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensaje"></p>
+
+    <script src="./ej11.js"></script>
+</body>
+</html>
